@@ -9,6 +9,7 @@ import Users from './Components/Users';
 import { UserContext } from './Components/UserContext';
 import { ColorContext } from './Components/ColorContext';
 import { useState } from 'react';
+import Mypage from './Components/Mypage';
 // import Footer from './Components/Footer';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
                         <Route path='/users' component={Users} />
                         <Route path='/chats' component={Chats} />
                         <Route path='/login' component={Login} />
+                        <Route path='/mypage' component={Mypage} />
                     </Switch>
                     
                     {/* <Footer /> */}
